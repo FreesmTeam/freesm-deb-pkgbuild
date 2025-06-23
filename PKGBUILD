@@ -48,7 +48,7 @@ source=(
 )
 sha256sums=('0a9814a6ab69fbc6f49ed80a1632a3da2d3527b9ccd23c549a08459d2e486f7e'
             '42394447d4b52c9329ff45f3c700c0eb2090a5803c5de010587d64294c37420f'
-            '55f14ca1c20ba05785b248b3454ce2671149112d6b7c1a4e4fd24f4dde8f4c71')
+            'c2fca2aa3a976ccd7b980318e0416b0de4120f989284cb7d5e93672622407bbc')
 
 # allow for ARM support
 #TODO: makedeb's hard-coding for x86-64 has been fixed in a future makedeb version
