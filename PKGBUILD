@@ -3,9 +3,9 @@
 pkgname=freesmlauncher
 pkgver=1.3.4
 pkgrel=1
-pkgdesc='Minecraft launcher with ability to manage multiple instances.'
+pkgdesc='Minecraft launcher with offline accounts support.'
 arch=('i386' 'amd64' 'arm64' 'armhf' 'riscv64')
-url='https://website-freesmlauncher.vercel.app/'
+url='https://freesmlauncher.org/'
 license=('GPL-3')
 depends=(
   'libqt6core5compat6'
@@ -90,7 +90,7 @@ fi
 
 prepare() {
   # workaround https://gcc.gnu.org/bugzilla/show_bug.cgi?id=64860
-  # more info: https://github.com/FreesmLauncher/FreesmLauncher/issues/128
+  # more info: https://github.com/PrismLauncher/PrismLauncher/issues/128
   if [[ "$(uname -m)" = armv7* ]]; then
     echo "GCC / ARMv7 fix is needed for this architecture, applying gcc-armv7-fix.patch"
     patch --directory="FreesmLauncher-sequoia-${pkgver}" --forward --strip=1 --input="${srcdir}/gcc-armv7-fix.patch"
