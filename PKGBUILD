@@ -1,7 +1,7 @@
 # Maintainer: so5iso4ka <so5iso4ka@icloud.com>
 
 pkgname=freesmlauncher
-pkgver=1.3.3
+pkgver=1.3.4
 pkgrel=1
 pkgdesc='Minecraft launcher with ability to manage multiple instances.'
 arch=('i386' 'amd64' 'arm64' 'armhf' 'riscv64')
@@ -46,7 +46,7 @@ source=(
   'gcc-armv7-fix.patch'
   'copyright'
 )
-sha256sums=('0a9814a6ab69fbc6f49ed80a1632a3da2d3527b9ccd23c549a08459d2e486f7e'
+sha256sums=('37f16e8eb917db0999bbba5c4099b3fca26af3ab7d336a7e6d7dcf0a6205c21c'
             '42394447d4b52c9329ff45f3c700c0eb2090a5803c5de010587d64294c37420f'
             '25de382d392c05a1835b9d9a2ea29e6c7c8cdebbb8c098244d377f6fbed8b9e3')
 
