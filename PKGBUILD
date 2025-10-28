@@ -1,7 +1,7 @@
 # Maintainer: so5iso4ka <so5iso4ka@icloud.com>
 
 pkgname=freesmlauncher
-pkgver=1.4.3
+pkgver=1.4.4
 pkgrel=1
 pkgdesc='Minecraft launcher with offline accounts support.'
 arch=('i386' 'amd64' 'arm64' 'armhf' 'riscv64')
@@ -46,7 +46,7 @@ source=(
   'gcc-armv7-fix.patch'
   'copyright'
 )
-sha256sums=('41a1dbfc7d0c5ac6357a822c4c22a2f4c88146e104c595aa9921d8fef729c7fb'
+sha256sums=('a88ba1b5ad243c819fe52180ef270ef180c68fead63522662245be8c339fc749'
             '42394447d4b52c9329ff45f3c700c0eb2090a5803c5de010587d64294c37420f'
             '25de382d392c05a1835b9d9a2ea29e6c7c8cdebbb8c098244d377f6fbed8b9e3')
 
